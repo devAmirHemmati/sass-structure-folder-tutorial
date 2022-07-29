@@ -1,0 +1,18 @@
+// Variables
+@import "./variables/colors", "./variables/spacing";
+
+// Mixins
+@import "./mixins/media", "./mixins/typography";
+
+// Helpers
+@import "./base/helper", "./base/base";
+
+// Components
+@import "./components/typography", "./components/breadcrumb",
+  "./components/slider", "./components/badge", "./components/pallet",
+  "./components/size-box", "./components/list-group", "./components/button";
+
+@import "./layout/container";
+
+// Pages
+@import "./pages/details-product";

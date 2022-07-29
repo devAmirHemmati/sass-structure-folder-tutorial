@@ -1,0 +1,15 @@
+.size-box {
+  width: 32px;
+  height: 32px;
+  border-radius: $spacing-2;
+  background-color: $color-grey-300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @extend .typography-tiny;
+}
+
+.size-box-active {
+  background-color: $color-primary-500;
+  color: $color-natural-50;
+}

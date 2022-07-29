@@ -1,0 +1,12 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "sass --watch ./styles/sass/main.scss:./styles/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

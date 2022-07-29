@@ -1,0 +1,23 @@
+.btn {
+  min-width: 200px;
+  padding: $spacing-3 $spacing-5;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: $color-primary-500;
+  color: $color-natural-50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &-color {
+    &-primary {
+      background-color: $color-primary-500 !important;
+      color: $color-natural-50 !important;
+    }
+  }
+}

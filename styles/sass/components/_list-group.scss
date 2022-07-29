@@ -1,0 +1,23 @@
+.list-group {
+  & > * {
+    display: flex;
+    @extend .typography-text-2;
+
+    &:not(:first-child) {
+      margin-top: $spacing-1;
+    }
+
+    dt {
+      color: $color-natural-700;
+
+      &::after {
+        content: " :";
+        margin-left: $spacing-1;
+      }
+    }
+
+    dd {
+      color: $color-natural-900;
+    }
+  }
+}

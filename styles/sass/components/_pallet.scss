@@ -1,0 +1,16 @@
+.pallet-box {
+  width: 32px;
+  height: 32px;
+  border-radius: $spacing-2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pallet-box-active {
+  &::after {
+    content: "\2713";
+    color: $color-grey-50;
+    font-size: 25px;
+  }
+}

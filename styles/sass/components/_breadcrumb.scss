@@ -1,0 +1,17 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+
+  &-item {
+    color: $color-natural-600;
+
+    &:not(:first-child)::before {
+      content: "/";
+      padding: 0 $spacing-2;
+    }
+
+    &:last-child {
+      color: $color-natural-900;
+    }
+  }
+}

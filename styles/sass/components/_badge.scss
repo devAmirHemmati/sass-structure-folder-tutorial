@@ -1,0 +1,19 @@
+.badge {
+  padding: 6px 8px;
+  border-radius: $spacing-2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-color {
+    &-grey {
+      background-color: $color-grey-200;
+      color: $color-natural-900;
+    }
+
+    &-primary {
+      background-color: $color-primary-500;
+      color: $color-natural-50;
+    }
+  }
+}
