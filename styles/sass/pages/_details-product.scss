@@ -17,6 +17,7 @@
   &__heading {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     column-gap: $spacing-8;
 
     &_information {

@@ -665,6 +665,7 @@ del {
 .details-product__heading {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   column-gap: 72px;
 }
 .details-product__heading_information > * h4 {
