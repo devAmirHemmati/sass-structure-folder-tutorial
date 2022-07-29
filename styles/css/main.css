@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .ml-1 {
   margin-left: 4px;
 }
@@ -397,18 +409,6 @@
 
 .p-10 {
   padding: 120px;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.flex-column {
-  flex-direction: column;
 }
 
 * {

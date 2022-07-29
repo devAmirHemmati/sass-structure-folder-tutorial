@@ -5,7 +5,7 @@
 @import "./mixins/media", "./mixins/typography";
 
 // Helpers
-@import "./base/helper", "./base/base";
+@import "./base/helper", "./base/spacing", "./base/base";
 
 // Components
 @import "./components/typography", "./components/breadcrumb",
