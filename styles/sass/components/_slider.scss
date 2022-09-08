@@ -4,7 +4,16 @@
   column-gap: 24px;
   align-items: center;
 
+  @include media("max", "sm") {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+
   & > aside {
+    @include media("max", "sm") {
+      display: none;
+    }
+
     & > span {
       display: block;
       text-align: center;
@@ -47,5 +56,10 @@
     width: 540px;
     height: 540px;
     border-radius: 12px;
+    max-width: 100%;
+
+    @include media("max", "sm") {
+      width: 100%;
+    }
   }
 }

@@ -537,7 +537,8 @@ del {
 .slider {
   display: grid;
   grid-template-columns: 100px 1fr;
-  column-gap: 24px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
   align-items: center;
 }
 @media (max-width: 991.99px) {
@@ -700,7 +701,8 @@ del {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: 72px;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
 }
 @media (max-width: 991.99px) {
   .details-product__heading {
@@ -763,6 +765,4 @@ del {
 }
 .details-product__heading_information_prices del {
   color: #aba8ac;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

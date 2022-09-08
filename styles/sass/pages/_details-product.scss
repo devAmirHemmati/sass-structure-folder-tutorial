@@ -20,7 +20,17 @@
     align-items: center;
     column-gap: $spacing-8;
 
+    @include media("max", "sm") {
+      grid-template-columns: 1fr;
+    }
+
     &_information {
+      & > h1 {
+        @include media("max", "sm") {
+          margin-top: 20px;
+        }
+      }
+
       & > * {
         h4 {
           margin-bottom: 12px;
@@ -82,6 +92,18 @@
           &:not(:first-child) {
             margin-right: 48px;
           }
+        }
+
+        @include media("max", "sm") {
+          justify-content: space-between;
+          position: fixed;
+          width: 100%;
+          min-height: 82px;
+          bottom: 0;
+          background-color: $color-grey-50;
+          left: 0;
+          z-index: 100;
+          padding: 8px 16px;
         }
       }
 

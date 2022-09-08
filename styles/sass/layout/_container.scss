@@ -3,7 +3,8 @@
   margin: 0 auto;
   padding: 0 15px;
 
-  @include media("max", "md") {
-    max-width: 328px;
+  @include media("max", "sm") {
+    max-width: 90%;
+    overflow-x: hidden;
   }
 }
